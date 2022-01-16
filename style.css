@@ -1,0 +1,157 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.first-page{
+    padding: 50px 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.navigation ul {
+     display: flex;
+     margin-right: 100px;
+}
+ul li{
+    list-style: none;
+    margin-right: 5%;
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.first-content{
+display: flex; 
+justify-content: space-between;
+}
+
+.camera-img .camera{
+   
+    width: 100%;
+    margin-top: 50px;
+   
+}
+.first-content .details{
+    width: 80%;
+    margin-top: 80px;
+}
+.details h2{
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 70px;
+}
+.details p{
+    margin-bottom: 30px;
+}
+.button{
+    text-decoration: none;
+    background-color: rgb(11, 50, 85);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    
+}
+.second-section{
+    padding: 50px 100px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.single-product{
+    box-shadow: 1px 1px 20px #000;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.product-details{
+    line-height: 20px;
+}
+.star {
+    display: flex;
+    margin-left: -37px;
+    color: rgb(245, 115, 9);
+    font-size: 14px;
+}
+.ratings {
+    display: flex;
+    margin-top: -22px;
+}
+.rate{
+    margin-left: 30px;
+    font-size: 14px;
+}
+.attribute{
+    font-size: 14px;
+    line-height: 7px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(10, 4, 41);
+    color: white;
+    margin: 0px;
+    padding: 20px 0px;
+    padding-bottom: 50px;
+}
+.social-media a {
+    background-color: rgb(70, 62, 114);
+    color: white;
+    border-radius: 50%;
+    padding: 10px 13px;
+    margin-left: 10px;
+}
+
+
+
+@media only screen and (max-width: 688px) {
+
+    .first-content{
+        display: block;
+    }
+    .first-content .details{
+        width: 120%;
+        margin-top: 80px;
+    }
+    .products{
+        
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .single-product{
+        box-shadow: 1px 1px 20px #000;
+        align-items: center;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    .image {
+        padding: 30px;
+    }
+    .first-page{
+        padding: 0px 20px;
+    }
+    .second-section{
+        padding: 0px 20px;
+    }
+    
+
+
+
+};
